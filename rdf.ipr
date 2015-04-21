@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" name="chirp-server-war:chirp-server-war exploded">
+      <root id="root">
+        <element id="javaee-facet-resources" facet="chirp-server-war/web/chirp-server-war" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="chirp-server-war" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.15/jersey-container-servlet-core-2.15.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.4.0-b06/javax.inject-2.4.0-b06.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.15/jersey-common-2.15.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.15/jersey-guava-2.15.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.4.0-b06/hk2-api-2.4.0-b06.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-utils/2.4.0-b06/hk2-utils-2.4.0-b06.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b06/aopalliance-repackaged-2.4.0-b06.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-locator/2.4.0-b06/hk2-locator-2.4.0-b06.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.15/jersey-server-2.15.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.15/jersey-client-2.15.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" />
+            <element id="archive" name="chirp-api-0.1-SNAPSHOT.jar">
+              <element id="module-output" name="chirp-api" />
+            </element>
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/commons/0.1-SNAPSHOT/commons-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/mail/mail/1.4.1/mail-1.4.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.1/libthrift-0.9.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.7.0/curator-framework-2.7.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.7.0/curator-client-2.7.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/curator/curator-x-discovery/2.7.0/curator-x-discovery-2.7.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/oro/oro/2.0.8/oro-2.0.8.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/authentication/0.1-SNAPSHOT/authentication-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/data-access/0.1-SNAPSHOT/data-access-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-core/2.1.3/cassandra-driver-core-2.1.3.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/tools/0.1-SNAPSHOT/tools-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/chirp-api-client/0.1-SNAPSHOT/chirp-api-client-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3/gson-2.3.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.1.6/snappy-java-1.1.1.6.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/api-client/google-api-client/1.13.1-beta/google-api-client-1.13.1-beta.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/oauth-client/google-oauth-client/1.13.1-beta/google-oauth-client-1.13.1-beta.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.13.1-beta/google-http-client-1.13.1-beta.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/http-client/google-http-client-gson/1.13.1-beta/google-http-client-gson-1.13.1-beta.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/chirpboard/0.1-SNAPSHOT/chirpboard-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/notifications/0.1-SNAPSHOT/notifications-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/chirpers/0.1-SNAPSHOT/chirpers-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/media/0.1-SNAPSHOT/media-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/settings/0.1-SNAPSHOT/settings-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/stats/0.1-SNAPSHOT/stats-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/chirp/search/0.1-SNAPSHOT/search-0.1-SNAPSHOT.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.9.0/solr-solrj-4.9.0.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/codehaus/woodstox/wstx-asl/3.2.7/wstx-asl-3.2.7.jar" />
+            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/noggit/noggit/0.5/noggit-0.5.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CodeStyleManager">
+    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true" />
+    <option name="CODE_STYLE_SCHEME" value="" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="PRINT_LINE_NUMBERS" value="false" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+    <option name="OUTPUT_DIRECTORY" />
+  </component>
+  <component name="IdProvider" IDEtalkID="46B6FC4BFF2101AF6F0F2A90A2AB3AB2" />
+  <component name="ImportConfiguration">
+    <option name="VENDOR" />
+    <option name="RELEASE_TAG" />
+    <option name="LOG_MESSAGE" />
+    <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+  </component>
+  <component name="JUnitProjectSettings">
+    <option name="TEST_RUNNER" value="UI" />
+  </component>
+  <component name="JavacSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="DEPRECATION" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+    <option name="USE_GENERICS_COMPILER" value="false" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="false" />
+    <option name="OPTION_NAVIGATOR" value="false" />
+    <option name="OPTION_INDEX" value="false" />
+    <option name="OPTION_SEPARATE_INDEX" value="false" />
+    <option name="OPTION_USE_1_1" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false" />
+    <option name="OPTION_DEPRECATED_LIST" value="false" />
+    <option name="OTHER_OPTIONS" />
+    <option name="HEAP_SIZE" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+  </component>
+  <component name="JikesSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="DEPRECATION" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false" />
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false" />
+    <option name="IS_INCREMENTAL_MODE" value="false" />
+    <option name="IS_EMACS_ERRORS_MODE" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rdf-api/chirp-api.iml" filepath="$PROJECT_DIR$/rdf-api/chirp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdf-server-war/chirp-server-war.iml" filepath="$PROJECT_DIR$/rdf-server-war/chirp-server-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdf.iml" filepath="$PROJECT_DIR$/rdf.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" />
+  <component name="ThriftCompiler">
+    <compilers />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+</project>
