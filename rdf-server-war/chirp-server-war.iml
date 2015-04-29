@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module relativePaths="false" type="JAVA_MODULE" version="4">
+<module relativePaths="false" type="J2EE_WEB_MODULE" version="4">
   <component name="FacetManager">
     <facet type="web" name="chirp-server-war">
       <configuration>
@@ -33,114 +33,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="chirp-api" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/commons/0.1-SNAPSHOT/commons-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/authentication/0.1-SNAPSHOT/authentication-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/data-access/0.1-SNAPSHOT/data-access-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/tools/0.1-SNAPSHOT/tools-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/chirp-api-client/0.1-SNAPSHOT/chirp-api-client-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/chirpboard/0.1-SNAPSHOT/chirpboard-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/notifications/0.1-SNAPSHOT/notifications-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/chirpers/0.1-SNAPSHOT/chirpers-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/media/0.1-SNAPSHOT/media-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/settings/0.1-SNAPSHOT/settings-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/stats/0.1-SNAPSHOT/stats-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/chirp/search/0.1-SNAPSHOT/search-0.1-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -297,43 +189,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.1/mail-1.4.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.1/libthrift-0.9.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -351,60 +207,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.6/commons-codec-1.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -414,70 +216,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.7.0/curator-framework-2.7.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.7.0/curator-client-2.7.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-x-discovery/2.7.0/curator-x-discovery-2.7.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3/gson-2.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -504,7 +243,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/2.13.0/jena-arq-2.13.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -513,7 +252,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/2.13.0/jena-core-2.13.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -522,7 +261,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/oro/oro/2.0.8/oro-2.0.8.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-iri/1.1.2/jena-iri-1.1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -531,7 +270,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-core/2.1.3/cassandra-driver-core-2.1.3.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -540,7 +279,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -549,7 +288,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3/gson-2.3.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -558,7 +297,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.1.6/snappy-java-1.1.1.6.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -567,7 +306,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.6/commons-codec-1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -576,7 +315,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/api-client/google-api-client/1.13.1-beta/google-api-client-1.13.1-beta.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/github/jsonld-java/jsonld-java/0.5.1/jsonld-java-0.5.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -585,7 +324,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/oauth-client/google-oauth-client/1.13.1-beta/google-oauth-client-1.13.1-beta.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -594,7 +333,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.13.1-beta/google-http-client-1.13.1-beta.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -603,7 +342,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -612,7 +351,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-jdk5/13.0/guava-jdk5-13.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -621,7 +360,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient-cache/4.2.6/httpclient-cache-4.2.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -630,7 +369,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client-gson/1.13.1-beta/google-http-client-gson-1.13.1-beta.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.1/libthrift-0.9.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -639,7 +378,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.9.0/solr-solrj-4.9.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.0/commons-csv-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -648,29 +387,224 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/wstx-asl/3.2.7/wstx-asl-3.2.7.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/noggit/noggit/0.5/noggit-0.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+  </component>
+  <component name="WebModuleBuildComponent">
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/chirp-server-war" />
+  </component>
+  <component name="WebModuleProperties">
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0" />
+      <attribute name="URI" value="/WEB-INF/lib/junit-4.11.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0" />
+      <attribute name="URI" value="/WEB-INF/lib/hamcrest-core-1.3.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jersey-container-servlet-core-2.15.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.15/jersey-container-servlet-core-2.15.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/javax.inject-2.4.0-b06.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.4.0-b06/javax.inject-2.4.0-b06.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jersey-common-2.15.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.15/jersey-common-2.15.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/javax.annotation-api-1.2.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jersey-guava-2.15.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.15/jersey-guava-2.15.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/hk2-api-2.4.0-b06.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.4.0-b06/hk2-api-2.4.0-b06.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/hk2-utils-2.4.0-b06.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-utils/2.4.0-b06/hk2-utils-2.4.0-b06.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/aopalliance-repackaged-2.4.0-b06.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b06/aopalliance-repackaged-2.4.0-b06.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/hk2-locator-2.4.0-b06.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-locator/2.4.0-b06/hk2-locator-2.4.0-b06.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/javassist-3.18.1-GA.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jersey-server-2.15.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.15/jersey-server-2.15.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jersey-client-2.15.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.15/jersey-client-2.15.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/</url>
+    </containerElement>
+    <containerElement type="module" name="chirp-api">
+      <attribute name="method" value="5" />
+      <attribute name="URI" value="/WEB-INF/lib/chirp-api-0.1-SNAPSHOT.jar" />
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/slf4j-log4j12-1.5.8.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/slf4j-api-1.5.8.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/log4j-1.2.14.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/gson-2.3.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3/gson-2.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jackson-core-asl-1.9.13.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jena-arq-2.13.0.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-arq/2.13.0/jena-arq-2.13.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jena-core-2.13.0.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/2.13.0/jena-core-2.13.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jena-iri-1.1.2.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-iri/1.1.2/jena-iri-1.1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/xercesImpl-2.11.0.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/xml-apis-1.4.01.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/httpclient-4.2.6.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/httpcore-4.2.5.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-codec-1.6.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.6/commons-codec-1.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jsonld-java-0.5.1.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/com/github/jsonld-java/jsonld-java/0.5.1/jsonld-java-0.5.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jackson-core-2.3.3.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jackson-databind-2.3.3.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jackson-annotations-2.3.0.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/httpclient-cache-4.2.6.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient-cache/4.2.6/httpclient-cache-4.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/libthrift-0.9.1.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.1/libthrift-0.9.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-csv-1.0.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.0/commons-csv-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-lang3-3.3.2.jar" />
+      <url>jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/</url>
+    </containerElement>
+    <deploymentDescriptor version="2.3" name="web.xml" optional="false" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <webroots>
+      <root relative="/" url="file://$MODULE_DIR$/src/main/webapp" />
+    </webroots>
   </component>
 </module>

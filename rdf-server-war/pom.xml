@@ -34,24 +34,11 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
-                    <warName>chirp-rest</warName>
+                    <warName>rdf-rest</warName>
                     <attachClasses>true</attachClasses>
                     <archiveClasses>true</archiveClasses>
                 </configuration>
             </plugin>
-            <!--plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>make-a-jar</id>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin-->
         </plugins>
     </build>
 
