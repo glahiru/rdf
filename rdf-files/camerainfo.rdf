@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:rela="http://purl.org/vocab/relationship/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://camera/LeicaM7">
+    <rela:depthOf>1.5</rela:depthOf>
+    <rela:heightOf>3.1</rela:heightOf>
+    <rela:widthOf>5.4</rela:widthOf>
+    <rela:weightOf>21.5</rela:weightOf>
+    <rela:produceIn>2002</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Leica"/>
+    <rela:filmcameraOf>
+      <rdf:Description rdf:about="http://camera/FullFrameCamera">
+        <rela:subsetOf>
+          <rdf:Description rdf:about="http://camera/FilmCamera">
+            <rela:kindOf rdf:resource="http://camera/Camera"/>
+          </rdf:Description>
+        </rela:subsetOf>
+        <rela:subsetOf>
+          <rdf:Description rdf:about="http://camera/DigitalCamera">
+            <rela:kindOf rdf:resource="http://camera/Camera"/>
+          </rdf:Description>
+        </rela:subsetOf>
+      </rdf:Description>
+    </rela:filmcameraOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/NikonD800">
+    <rela:depthOf>3.2</rela:depthOf>
+    <rela:heightOf>4.8</rela:heightOf>
+    <rela:widthOf>5.7</rela:widthOf>
+    <rela:weightOf>35.3</rela:weightOf>
+    <rela:produceIn>2012</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Nikon"/>
+    <rela:digitalcameraOf rdf:resource="http://camera/FullFrameCamera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/Canon7D">
+    <rela:depthOf>2.9</rela:depthOf>
+    <rela:heightOf>4.4</rela:heightOf>
+    <rela:widthOf>5.8</rela:widthOf>
+    <rela:weightOf>28.9</rela:weightOf>
+    <rela:produceIn>2009</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Canon"/>
+    <rela:digitalcameraOf>
+      <rdf:Description rdf:about="http://camera/NotFullFrameCamera">
+        <rela:subsetOf rdf:resource="http://camera/DigitalCamera"/>
+      </rdf:Description>
+    </rela:digitalcameraOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/NikonFM10">
+    <rela:depthOf>2.1</rela:depthOf>
+    <rela:heightOf>3.4</rela:heightOf>
+    <rela:widthOf>5.5</rela:widthOf>
+    <rela:weightOf>14.8</rela:weightOf>
+    <rela:produceIn>1995</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Nikon"/>
+    <rela:filmcameraOf rdf:resource="http://camera/FullFrameCamera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/Canon5D">
+    <rela:depthOf>3.0</rela:depthOf>
+    <rela:heightOf>4.6</rela:heightOf>
+    <rela:widthOf>6.0</rela:widthOf>
+    <rela:weightOf>30.3</rela:weightOf>
+    <rela:produceIn>2012</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Canon"/>
+    <rela:digitalcameraOf rdf:resource="http://camera/FullFrameCamera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/NikonD90">
+    <rela:depthOf>3.0</rela:depthOf>
+    <rela:heightOf>4.1</rela:heightOf>
+    <rela:widthOf>5.2</rela:widthOf>
+    <rela:weightOf>21.8</rela:weightOf>
+    <rela:produceIn>2008</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Nikon"/>
+    <rela:digitalcameraOf rdf:resource="http://camera/NotFullFrameCamera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/Canon60D">
+    <rela:depthOf>3.1</rela:depthOf>
+    <rela:heightOf>4.2</rela:heightOf>
+    <rela:widthOf>5.7</rela:widthOf>
+    <rela:weightOf>23.8</rela:weightOf>
+    <rela:produceIn>2010</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Canon"/>
+    <rela:digitalcameraOf rdf:resource="http://camera/NotFullFrameCamera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://camera/Sonya7">
+    <rela:depthOf>2.0</rela:depthOf>
+    <rela:heightOf>3.7</rela:heightOf>
+    <rela:widthOf>5.0</rela:widthOf>
+    <rela:weightOf>16.7</rela:weightOf>
+    <rela:produceIn>2013</rela:produceIn>
+    <rela:productOf rdf:resource="http://camera/Sony"/>
+    <rela:digitalcameraOf rdf:resource="http://camera/FullFrameCamera"/>
+  </rdf:Description>
+</rdf:RDF>
