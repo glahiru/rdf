@@ -95,7 +95,7 @@ public class ChirpAPIResource {
             String name = parameters.get("name");
             String path = rdfMap.get(name);
             // reading the file
-            String rdfContent = null;
+            String rdfContent = "";
             String line = null;
 
             FileInputStream fileInputStream = new FileInputStream(new File(path));
@@ -197,8 +197,4 @@ public class ChirpAPIResource {
         }
         return stringBuilder.toString();
     }
-
-
-
-
 }
